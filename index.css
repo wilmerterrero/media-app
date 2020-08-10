@@ -1,0 +1,158 @@
+body {
+  background-color: #222b31;
+}
+nav {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.sidebar {
+  padding: 0 !important;
+  background-color: #191c1f;
+  height: 100vh;
+  width: 20% !important;
+}
+.sidebar header {
+  background-color: #f83745;
+  height: 64px;
+  padding: 2em;
+  margin-bottom: 4rem;
+}
+.sidebar header h1 {
+  font-size: 1rem;
+  color: #fff;
+  display: block;
+  padding: 0 15px;
+  line-height: 0 !important;
+  margin: 0 !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+.sidebar .items {
+  color: white;
+}
+.sidebar .items li {
+  list-style: none;
+  margin: 22px;
+  margin-left: 3em;
+}
+.sidebar .items a {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.sidebar .items .checked {
+  background-color: #222b31;
+  width: 100%;
+  padding: 0.2em;
+}
+.sidebar .items .checked a {
+  color: #f83745;
+}
+.sidebar .items .checked i {
+  color: rgb(128, 128, 128);
+  float: right;
+  font-size: 1.3rem;
+}
+.sidebar .activities {
+  color: white;
+  margin-left: 3em;
+}
+.sidebar .activities h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.sidebar .activities li {
+  list-style: none;
+  margin: 22px;
+}
+.sidebar .activities .notif-people .people {
+  color: #f83745;
+  font-weight: bold;
+}
+.sidebar .activities .notif-people .recommendation {
+  color: #f83745;
+}
+.sidebar .activities .notif {
+  background-color: #f83745;
+  cursor: default;
+  pointer-events: none;
+}
+.sidebar .activities img {
+  width: 35px;
+}
+.sidebar hr {
+  margin: 2em;
+  border: 1px solid rgb(128, 128, 128, 0.2);
+}
+.right-panel {
+  height: 100vh;
+  padding: 0 !important;
+  width: 80% !important;
+}
+.right-panel nav {
+  background-color: #ff424f !important;
+}
+.right-panel .search a {
+  color: rgb(255, 255, 255, 0.7);
+}
+.right-panel .search i {
+  font-size: 1.3rem;
+  padding-left: 2rem;
+}
+.right-panel .user a {
+  position: relative;
+  z-index: 1;
+}
+.right-panel .user img {
+  width: 45px;
+  position: relative;
+  z-index: 2;
+  top: 45px;
+  right: 70px;
+}
+.right-panel .movies {
+  padding-left: 2.5em;
+  color: rgb(255, 255, 255);
+}
+.right-panel .movies .movies-header h1 {
+  font-size: 2.5rem;
+  padding-bottom: 1em;
+}
+.right-panel .movie {
+  padding-bottom: 4em;
+}
+.right-panel .movie-rate {
+  background-color: #ffb10a;
+  color: white;
+  position: relative;
+  border-radius: 40%;
+  letter-spacing: 2px;
+  padding: 0.4em;
+  z-index: 2;
+  bottom: 320px;
+  left: 133px;
+}
+.right-panel .movie img {
+  position: relative;
+  z-index: 1;
+  height: 325.925px;
+  width: 220px;
+}
+.right-panel .movie .movie-info h2 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.right-panel .movie .movie-info p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #5d7585;
+}
+
+@media (max-width: 1440px) {
+  .right-panel .movie-rate {
+    bottom: 0;
+    left: 90px;
+  }
+}
